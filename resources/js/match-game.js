@@ -6,7 +6,7 @@ var MatchGame = {};
 */
 
 $(document).ready(function () {
-  var cardValues = MatchGame.generateCardValues;
+  var cardValues = MatchGame.generateCardValues();
   var $game = $('#game');
   MatchGame.renderCards(cardValues,$game)
 });
